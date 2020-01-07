@@ -11,9 +11,6 @@ myBot.on('message', data => {
     else if ((data.content.toLowerCase() === '!LFL') || (data.content === '!lfl')) {
         data.channel.send("la LFL, c'est le mardi et mercredi soir les amis.");
     }
-    else if (data.content.toLowerCase() === '!media') {
-        data.channel.send("c'est la faute des juifs.");
-    }
     else if (data.content.toLowerCase() === "!waulk") {
         data.channel.send("Ton kaméhaméha, quelle main en haut ?");
     }
